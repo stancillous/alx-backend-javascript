@@ -9,13 +9,13 @@ export default async function asyncUploadUser() {
 
     try {
       user_result["photo"] = await uploadPhotoResult;
-    } catch (photoError) {
+    } catch (error) {
       user_result["photo"] = null;
     }
 
     try {
       user_result["user"] = await createUserResult;
-    } catch (userError) {
+    } catch (error) {
       user_result["user"] = null;
     }
 
