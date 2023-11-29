@@ -1,6 +1,6 @@
-export default function getResponseFromAPI(){
-    let newPromise = new Promise((resolve, reject)=>{
+export default function getResponseFromAPI () {
+  const newPromise = new Promise((resolve, reject) => {
 
-    })
-    return newPromise
+  });
+  return newPromise;
 }
